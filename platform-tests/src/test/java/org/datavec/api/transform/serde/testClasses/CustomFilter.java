@@ -62,19 +62,13 @@ public class CustomFilter implements Filter {
     }
 
     @Override
-    public boolean removeExample(Object example) {
-        return false;
-    }
+    public boolean removeExample(Object example) { return false; }
 
     @Override
-    public boolean removeSequence(Object sequence) {
-        return false;
-    }
+    public boolean removeSequence(Object sequence) { return false; }
 
     @Override
-    public boolean removeExample(List<Writable> writables) {
-        return false;
-    }
+    public boolean removeExample(List<Writable> writables) { return false; }
 
     @Override
     public boolean removeSequence(List<List<Writable>> sequence) {
