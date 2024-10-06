@@ -79,9 +79,7 @@ public class AdaDelta implements IUpdater {
     }
 
     @Override
-    public boolean hasLearningRate() {
-        return false;
-    }
+    public boolean hasLearningRate() { return false; }
 
     @Override
     public void setLrAndSchedule(double lr, ISchedule lrSchedule) {
