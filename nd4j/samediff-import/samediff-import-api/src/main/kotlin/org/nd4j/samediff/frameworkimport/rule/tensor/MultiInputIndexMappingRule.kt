@@ -24,7 +24,6 @@ import org.nd4j.ir.OpNamespace
 import org.nd4j.ir.TensorNamespace
 import org.nd4j.samediff.frameworkimport.ArgDescriptor
 import org.nd4j.samediff.frameworkimport.context.MappingContext
-import org.nd4j.samediff.frameworkimport.findOp
 import org.nd4j.samediff.frameworkimport.opdefs.OpDescriptorLoaderHolder
 import org.nd4j.samediff.frameworkimport.process.MappingProcess
 import org.nd4j.shade.protobuf.GeneratedMessageV3
