@@ -21,8 +21,6 @@ package org.nd4j.samediff.frameworkimport.rule.attribute
 
 import org.nd4j.ir.OpNamespace
 import org.nd4j.samediff.frameworkimport.ArgDescriptor
-import org.nd4j.samediff.frameworkimport.context.MappingContext
-import org.nd4j.samediff.frameworkimport.lookupIndexForArgDescriptor
 import org.nd4j.shade.protobuf.GeneratedMessageV3
 import org.nd4j.shade.protobuf.ProtocolMessageEnum
 
